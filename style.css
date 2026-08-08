@@ -50,7 +50,14 @@ body {
     gap: 20px;
     padding: 0 15px;
 }
-
+#inicio {
+    flex: 2;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    position: relative; 
+}
 .postagem1 {
     flex: 2;
     background-color: #fff;
@@ -60,7 +67,7 @@ body {
     position: relative; 
 }
 
-.postagem1 h2 {
+.postagem1 h3 {
     color: #ff66b2;
     margin-bottom: 15px;
 }
@@ -78,7 +85,7 @@ body {
     position: relative; 
 }
 
-.postagem2 h2 {
+.postagem2 h3 {
     color: #ff66b2;
     margin-bottom: 15px;
 }
