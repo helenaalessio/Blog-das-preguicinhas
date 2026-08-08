@@ -43,3 +43,47 @@ body {
     margin: 0 15px;
     font-weight: bold;
 }
+.conteudo-principal {
+    display: flex;
+    max-width: 1000px;
+    margin: 30px auto;
+    gap: 20px;
+    padding: 0 15px;
+}
+
+.postagem1 {
+    flex: 2;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    position: relative; 
+}
+
+.postagem1 h2 {
+    color: #ff66b2;
+    margin-bottom: 15px;
+}
+
+.postagem1 p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+.postagem2 {
+    flex: 2;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    position: relative; 
+}
+
+.postagem2 h2 {
+    color: #ff66b2;
+    margin-bottom: 15px;
+}
+
+.postagem2 p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
